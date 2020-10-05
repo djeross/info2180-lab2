@@ -1,4 +1,15 @@
+html
+{
+   font-size: 18px ;
+   color: #000 ;
+   font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+   color: #2D3748;
+}
+
 .circleimg {
+    margin: 0;
+	padding-top: 10px;
+	border: 0;
     border-radius: 50%;
     height: 150px;
     width: 150px;
@@ -8,12 +19,15 @@ img.imgwrap1 {
     float: right;
     height: 200px;
     width: 230px;
-    padding: 90px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
 img.imgwrap2 {
     float: left;
     height: 200px;
     width: 230px;
+    padding-right: 15px;
 }
 
 a {
@@ -29,11 +43,12 @@ ul {
 .container {
     display: grid;
     grid-template-columns: 10% 65% 5% 15% 5%;
-    grid-template-rows: 15% 75% 10%;
+    grid-template-rows: 20% 70% 10%;
     grid-gap: 20px;
 }
 
 header {
+
     font-size: 18px;
     color: #FFFFFF;
     background-color:#63B3ED;
@@ -45,6 +60,9 @@ header {
     display: flex;
     justify-content: center;
     flex-direction:column;
+    align-items: center;
+    color: #FFFFFF ;
+    background-color:#63B3ED ;
 }
 
 main{
@@ -62,16 +80,56 @@ aside{
 }
 
 footer{
-
     grid-row:4;
-    grid-column:1/4;
-
+    grid-column:1/6;
     display:flex;
     align-items: flex-end;
     justify-content:center;
+    background-color: #2C5282;
+    color: #FFFFF2;
 }
 
-.side{
+#abt{
     background-color:#E2E8F0;
-    padding: 0px 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+header h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blogtitles{
+    font-size:32px;
+    color:#48BB78;
+}
+
+h4{
+    color:#718096;
+}
+
+#cssvalid{
+    display:flex;
+    border:0;
+    width:88px;
+    height:31px;
+    align-items:flex-end;
+    justify-content: flex-start;
+    grid-row:3;
+    grid-column:2;
+}
+
+.asidetitle{
+    color:#48BB78;
+}
+
+#abthead{
+    color:#000000;
+    font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+.change{
+    color: #4299E1;
 }
